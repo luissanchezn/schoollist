@@ -35,14 +35,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> refs/heads/master
