@@ -65,7 +65,7 @@
         <type>zip</type>
     </dependency>
                     
-
+<!--
     <dependency>
         <groupId>org.grails.plugins</groupId>
         <artifactId>jaxrs</artifactId>
@@ -73,7 +73,7 @@
         <scope>runtime</scope>
         <type>zip</type>
     </dependency>
-                    
+-->                    
 
     <dependency>
         <groupId>org.grails.plugins</groupId>
@@ -179,6 +179,11 @@
             <name>grails-plugins</name>
             <url>http://repo.grails.org/grails/plugins</url>
         </repository>
+              <repository>  
+           <id>maven-restlet</id>  
+           <name>Public online Restlet repository</name>  
+           <url>http://maven.restlet.org</url>  
+        </repository> 
     </repositories>
 
     <profiles>
