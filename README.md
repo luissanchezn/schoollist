@@ -1,4 +1,4 @@
-schoollist
+schoollist 
 ==========
 The following standard Maven commands are then possible:
 
