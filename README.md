@@ -1,5 +1,19 @@
 schoollist 
 ==========
+Configure Maven
+Add the following to settings.xml
+
+		<pluginGroup>org.grails</pluginGroup>
+
+
+				<repository>
+					<id>grails-plugins</id>
+					<name>grails-plugins</name>
+					<url>http://repo.grails.org/grails/plugins</url>
+				</repository>
+
+
+
 The following standard Maven commands are then possible:
 
 compile - Compiles a Grails project
