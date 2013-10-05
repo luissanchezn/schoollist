@@ -12,7 +12,19 @@ Add the following to settings.xml
 					<url>http://repo.grails.org/grails/plugins</url>
 				</repository>
 
+_________________Plugins installed_____________________________________________
+run mvn grails:list-plugins to get the list of plugins
+To install type 'grails install-plugin [NAME] [VERSION]'
+Example
+twitter-bootstrap   <3.0.0>
 
+grails install-plugin twitter-bootstrap   3.0.0
+grails install-plugin backbonejs          1.0.0
+| Warning The install-plugin command is deprecated and may be removed from a future version of Grails. 
+ Plugin dependencies should be expressed in grails-app/conf/BuildConfig.groovy.  
+ See http://grails.org/doc/2.2.x/guide/conf.html#pluginDependencies.
+
+___________________Maven___________________________________________
 
 The following standard Maven commands are then possible:
 
